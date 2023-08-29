@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import copy from "copy-to-clipboard";
 
 const Index = () => {
@@ -6,17 +6,41 @@ const Index = () => {
   const [thumbnailOptions, setThumbnailOptions] = useState([]);
 
   const getYouTubeThumbnail = (url) => {
-    // ... Existing getYouTubeThumbnail logic ...
+    let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
+    let match = url.match(regExp);
+
+    if (match && match[1].length === 11) {
+      const videoURL = match[1];
+      const thumbnailBaseUrl = "http://img.youtube.com/vi/";
+
+      const options = [
+        { resolution: "HD (1280x720)", code: "maxresdefault" },
+        { resolution: "SD (640x480)", code: "sddefault" },
+        { resolution: "Normal (480x360)", code: "hqdefault" },
+        { resolution: "Medium (320x180)", code: "mqdefault" },
+        { resolution: "Low (120x90)", code: "default" },
+      ];
+
+      const thumbnailOptions = options.map((option) => ({
+        resolution: option.resolution,
+        url: `${thumbnailBaseUrl}${videoURL}/${option.code}.jpg`,
+      }));
+
+      setThumbnailOptions(thumbnailOptions);
+      setVideoURL("");
+    } else {
+      setThumbnailOptions([]);
+    }
   };
 
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">
-          The Ultimate Guide to Thumbnail Downloader YouTube
+          Youtube Thumbnail Downloader
         </h1>
         <p className="text-gray-600">
-          Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.
+          Download high-quality thumbnails from YouTube videos.
         </p>
       </header>
       <div className="text-center">
@@ -52,10 +76,6 @@ const Index = () => {
           </div>
         </div>
       )}
-      <div className="mt-8">
-        <h2 className="text-xl font-semibold mb-4">Frequently Asked Questions (FAQs)</h2>
-        {/* ... Provided FAQs content ... */}
-      </div>
     </div>
   );
 };
