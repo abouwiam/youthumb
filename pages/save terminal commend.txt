@@ -1,3 +1,0 @@
-git add .
-git commit -m "adding ads"
-git push -u origin main
