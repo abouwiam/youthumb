@@ -42,7 +42,10 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           
-          {/* <p>Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.</p>
+          {/* Add the text here */}
+          <p>Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.</p>
+          <h1 style={{ textAlign: 'center' }}>The Ultimate Guide to Thumbnail Downloader YouTube</h1>
+          {/* {/* <p>Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.</p>
 <h1 style="text-align: center;">The Ultimate Guide to Thumbnail Downloader YouTube</h1>
 <h2>I. Introduction</h2>
 <ol>
@@ -142,10 +145,7 @@ class MyDocument extends Document {
     <li>Recap of the importance of YouTube thumbnails</li>
     <li>The convenience of Thumbnail Downloader YouTube tools</li>
     <li>Encourage readers to start using these tools</li>
-</ul> */}
-          <p>Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.</p>
-          <h1 style={{ textAlign: 'center' }}>The Ultimate Guide to Thumbnail Downloader YouTube</h1>
-          
+</ul> */} */}
         </body>
       </Html>
     );
