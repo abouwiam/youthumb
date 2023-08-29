@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Google tag (gtag.js) */}
+          {/* Google Analytics tracking code */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYMQMKS6F"></script>
           <script>
             {`
@@ -16,6 +16,8 @@ class MyDocument extends Document {
               gtag('config', 'G-KYYMQMKS6F');
             `}
           </script>
+
+          {/* Favicon links */}
           <link
             rel="apple-touch-icon"
             sizes="180x180"
