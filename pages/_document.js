@@ -154,6 +154,9 @@ class MyDocument extends Document {
 		  {/* Privacy Policy link */}
           <footer>
             <a href="/privacy-policy">Privacy Policy</a>
+			{/* Terms and Conditions link */}
+            <a href="/terms-and-conditions">Terms and Conditions</a>
+         
           </footer>
 		  {/* Contact Us link */}
           <footer>
