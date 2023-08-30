@@ -42,6 +42,8 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
+		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
+     crossorigin="anonymous"></script>
         </Head>
         <body>
           {/* The Main component renders your page's content */}
