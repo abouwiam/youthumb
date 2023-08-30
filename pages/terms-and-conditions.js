@@ -1,21 +1,19 @@
-// pages/TermsandConditions.js
 import React from 'react';
 
-const TermsandConditions = () => {
+const TermsAndConditions = () => {
   return (
     <div>
       <h1>Terms and Conditions</h1>
       <p>Last updated: August 30, 2023</p>
 
-      <p><!DOCTYPE html>
-<html>
-
-<head>
-    <title></title>
-</head>
-
-<body spellcheck="false">
-    <h2><strong>Terms and Conditions</strong></h2>
+      <div dangerouslySetInnerHTML={{ __html: `
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <!-- ... your HTML head content ... -->
+          </head>
+          <body>
+            <h2><strong>Terms and Conditions</strong></h2>
     <p>Welcome to Thumbnail Downloader Youtube!</p>
     <p>These terms and conditions outline the rules and regulations for the use of Thumbnail Downloader YouTube&apos;s Website, located at https://www.thumbnaildownloaderyoutube.com.</p>
     <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Thumbnail Downloader YouTube if you do not agree to take all of the terms and conditions stated on this page.</p>
@@ -92,13 +90,11 @@ const TermsandConditions = () => {
     </ul>
     <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort, and for breach of statutory duty.</p>
     <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
-</body>
-
-</html></p>
-      
-      
+          </body>
+        </html>
+      `}} />
     </div>
   );
 };
 
-export default TermsandConditions;
+export default TermsAndConditions;
