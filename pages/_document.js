@@ -155,6 +155,10 @@ class MyDocument extends Document {
           <footer>
             <a href="/privacy-policy">Privacy Policy</a>
           </footer>
+		  {/* Contact Us link */}
+          <footer>
+            <a href="/contact-us">Contact Us</a>
+          </footer>
         </body>
       </Html>
     );
