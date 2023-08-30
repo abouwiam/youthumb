@@ -151,6 +151,10 @@ class MyDocument extends Document {
       </ul>
     </div>
           <NextScript />
+		  {/* Privacy Policy link */}
+          <footer>
+            <a href="/privacy-policy">Privacy Policy</a>
+          </footer>
         </body>
       </Html>
     );
