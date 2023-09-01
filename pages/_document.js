@@ -5,23 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Google Analytics tracking code */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYMQMKS6F"></script>
-          <script>
-            {`
-              // Initialize the Google Analytics dataLayer
-              window.dataLayer = window.dataLayer || [];
-              
-              // Define the gtag function for sending events
-              function gtag(){dataLayer.push(arguments);}
-              
-              // Initialize gtag with the current date
-              gtag('js', new Date());
-              
-              // Configure gtag with your tracking ID
-              gtag('config', 'G-KYYMQMKS6F');
-            `}
-          </script>
 
           {/* Favicon links */}
           <link
@@ -54,7 +37,7 @@ class MyDocument extends Document {
       <p>
         Discover the easiest way to obtain high-quality YouTube video thumbnails with our Thumbnail Downloader. Quickly access and download YouTube video previews using our efficient Thumbnail Downloader YouTube tool.
       </p>
-      <h1>The Ultimate Guide to Thumbnail Downloader YouTube</h1>
+      <h2>The Ultimate Guide to Thumbnail Downloader YouTube</h2>
       <h2>I. Introduction</h2>
       <ol>
         <li>A brief explanation of the importance of YouTube thumbnails.</li>
