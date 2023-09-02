@@ -27,16 +27,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicon/site.webmanifest" />
 		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
      crossorigin="anonymous"></script>
-	  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    window.dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', '${process.env.GA_TRACKING_ID}');
-</script>
+	  
 
 
         </Head>
