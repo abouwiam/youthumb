@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-
+         	
           {/* Favicon links */}
           <link
             rel="apple-touch-icon"
@@ -27,15 +27,18 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicon/site.webmanifest" />
 		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
      crossorigin="anonymous"></script>
-	 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYMQMKS6F"></script>
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
   gtag('js', new Date());
-
-  gtag('config', 'G-KYYMQMKS6F');
+  gtag('config', '${process.env.GA_TRACKING_ID}');
 </script>
+
+
         </Head>
         <body>
           {/* The Main component renders your page's content */}
