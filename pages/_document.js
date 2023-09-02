@@ -27,6 +27,15 @@ class MyDocument extends Document {
           <link rel="manifest" href="/favicon/site.webmanifest" />
 		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
      crossorigin="anonymous"></script>
+	 <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYMQMKS6F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KYYMQMKS6F');
+</script>
         </Head>
         <body>
           {/* The Main component renders your page's content */}
