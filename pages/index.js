@@ -37,10 +37,10 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">
-          Thumbnail Downloader Youtube
+          Free Thumbnail Downloader Youtube
         </h1>
         <p className="text-gray-600">
-          Download high-quality and 4k thumbnails from YouTube videos online.
+          Discover Thumbnail Downloader YouTube – the simple solution for grabbing top-notch YouTube video thumbnails at no cost. With our easy-to-use tool, you can download thumbnails in various qualities. Just paste the video thumbnail URL in the box below, click, and Get a Thumbnail Image. Elevate your content with stunning visuals today!
         </p>
       </header>
       <div className="text-center">
