@@ -1,7 +1,7 @@
 {
   "name": "Thumbnail Downloader Youtube",
   "short_name": "Free Thumbnail Downloader Youtube - High-Quality Images",
-  "description": "Discover our thumbnail downloader YouTube: Get high-quality thumbnails, Simply paste your video URL, hit 'Download Thumbnails,' and instantly enhance your content with eye-catching visuals.",
+  "description": "YouTube thumbnail downloader tool, designed to download high-quality thumbnail images. Elevate your content with ease and optimize your YouTube strategy today.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

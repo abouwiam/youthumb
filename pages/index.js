@@ -12,7 +12,7 @@ const Index = () => {
 
     if (match && match[1].length === 11) {
       const videoURL = match[1];
-      const thumbnailBaseUrl = "http://img.youtube.com/vi/git ;
+      const thumbnailBaseUrl = "http://img.youtube.com/vi/git" ;
 
       const options = [
         { resolution: "HD (1280x720)", code: "maxresdefault" },
