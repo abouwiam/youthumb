@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <DefaultSeo
         title="Free Thumbnail Downloader Youtube"
-        description="Discover Thumbnail Downloader YouTube – the simple solution for grabbing top-notch YouTube video thumbnails at no cost. With our easy-to-use tool, you can download thumbnails in various qualities. Just paste the video thumbnail URL in the box below, click, and Get a Thumbnail Image. Elevate your content with stunning visuals today!"
+        description="Discover thumbnail downloader YouTube tool: Access high-quality thumbnails in various resolutions and discover inspiration from fellow creators' designs. Simply paste your video URL, hit 'Download Thumbnails,' and instantly enhance your content with eye-catching visuals. Start optimizing your YouTube presence today"
         canonical="https://thumbnaildownloaderyoutube.com"
         openGraph={{
           url: "https://thumbnaildownloaderyoutube.com",
           title: "Free Thumbnail Downloader Youtube",
-          description: "Discover Thumbnail Downloader YouTube – the simple solution for grabbing top-notch YouTube video thumbnails at no cost. With our easy-to-use tool, you can download thumbnails in various qualities. Just paste the video thumbnail URL in the box below, click, and Get a Thumbnail Image. Elevate your content with stunning visuals today!",
+          description: "Discover thumbnail downloader YouTube tool: Access high-quality thumbnails in various resolutions and discover inspiration from fellow creators' designs. Simply paste your video URL, hit 'Download Thumbnails,' and instantly enhance your content with eye-catching visuals. Start optimizing your YouTube presence today",
           site_name: "Free Thumbnail Downloader Youtube",
         }}
       />
