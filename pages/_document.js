@@ -28,6 +28,7 @@ class MyDocument extends Document {
 		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
      crossorigin="anonymous"></script>
 	  
+          <meta name="yandex-verification" content="0037e9c2b99e50c2" />
 
 
         </Head>
