@@ -6,7 +6,8 @@ const Index = () => {
   const [thumbnailOptions, setThumbnailOptions] = useState([]);
 
   const getYouTubeThumbnail = (url) => {
-    let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
+    let regExp =
+      /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
     let match = url.match(regExp);
 
     if (match && match[1].length === 11) {
@@ -35,14 +36,20 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8">
-       <p style="text-align: center;"> <h1 className="text-3xl font-bold mb-2">
-          Free Thumbnail Downloader Youtube
-        </h1>
-        <p className="text-gray-600">
-          Discover Thumbnail Downloader YouTube – the simple solution for grabbing top-notch YouTube video thumbnails at no cost. With our easy-to-use tool, you can download thumbnails in various qualities. Just paste the video thumbnail URL in the box below, click, and Get a Thumbnail Image. Elevate your content with stunning visuals today!
-        </p></p>
-      </header>
+      <div className="centered-content">
+        <header className="text-center mb-8">
+          <h1 className="text-3xl font-bold mb-2">
+            Free Thumbnail Downloader Youtube
+          </h1>
+          <p className="text-gray-600">
+            Discover Thumbnail Downloader YouTube – the simple solution for
+            grabbing top-notch YouTube video thumbnails at no cost. With our
+            easy-to-use tool, you can download thumbnails in various qualities.
+            Just paste the video thumbnail URL in the box below, click, and Get
+            a Thumbnail Image. Elevate your content with stunning visuals today!
+          </p>
+        </header>
+      </div>
       <div className="text-center">
         <input
           type="text"
