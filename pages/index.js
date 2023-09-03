@@ -12,7 +12,7 @@ const Index = () => {
 
     if (match && match[1].length === 11) {
       const videoURL = match[1];
-      const thumbnailBaseUrl = "http://img.youtube.com/vi/";
+      const thumbnailBaseUrl = "http://img.youtube.com/vi/git ;
 
       const options = [
         { resolution: "HD (1280x720)", code: "maxresdefault" },
@@ -42,7 +42,7 @@ const Index = () => {
             Free Thumbnail Downloader Youtube
           </h1>
           <p className="text-gray-600">
-            Discover thumbnail downloader YouTube tool: Access high-quality thumbnails in various resolutions and discover inspiration from fellow creators' designs. Simply paste your video URL, hit 'Download Thumbnails,' and instantly enhance your content with eye-catching visuals. Start optimizing your YouTube presence today
+            Discover our thumbnail downloader YouTube: Get high-quality thumbnails, Simply paste your video URL, hit 'Download Thumbnails,' and instantly enhance your content with eye-catching visuals.
           </p>
         </header>
       </div>
