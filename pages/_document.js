@@ -29,8 +29,7 @@ class MyDocument extends Document {
      crossorigin="anonymous"></script>
 	  
           <meta name="yandex-verification" content="0037e9c2b99e50c2" />
-         
-
+      
         </Head>
         <body>
           {/* The Main component renders your page's content */}
