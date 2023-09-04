@@ -29,7 +29,7 @@ class MyDocument extends Document {
      crossorigin="anonymous"></script>
 	  
           <meta name="yandex-verification" content="0037e9c2b99e50c2" />
-
+          <meta name="monetag" content="bd1b69aea244c3040642955b844c7d6b">
 
         </Head>
         <body>
