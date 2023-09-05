@@ -1,4 +1,3 @@
-import "../styles/index.css";
 import { Fragment } from "react";
 import { DefaultSeo } from "next-seo";
 
@@ -7,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <DefaultSeo
         title="Free Thumbnail Downloader Youtube - High-Quality Images"
-        description="YouTube thumbnail downloader tool,download high-quality thumbnail images. Elevate your content with ease and optimize your YouTube strategy today."
+        description="YouTube thumbnail downloader tool, download high-quality thumbnail images. Elevate your content with ease and optimize your YouTube strategy today."
         canonical="https://thumbnaildownloaderyoutube.com"
         openGraph={{
           url: "https://thumbnaildownloaderyoutube.com",
@@ -17,6 +16,16 @@ function MyApp({ Component, pageProps }) {
         }}
       />
       <Component {...pageProps} />
+      {/* Google Analytics Code */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYYMQMKS6F"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-KYYMQMKS6F');
+        `}
+      </script>
     </Fragment>
   );
 }
