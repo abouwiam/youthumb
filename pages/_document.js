@@ -5,9 +5,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-         {/* Other head elements */}
-  <script src="https://dibsemey.com/pfe/current/tag.min.js?z=6293427" data-cfasync="false" async></script>	
-          {/* Favicon links */}
+		<script async="async" data-cfasync="false" src="//pl20536767.highcpmrevenuegate.com/b2b2f3b81060c432d69fd422435ad28d/invoke.js"></script>
+<div id="container-b2b2f3b81060c432d69fd422435ad28d"></div>
           <link
             rel="apple-touch-icon"
             sizes="180x180"
@@ -26,38 +25,29 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
-     crossorigin="anonymous"></script>
-	  
-          <meta name="yandex-verification" content="0037e9c2b99e50c2" />
-      
         </Head>
         <body>
-          {/* The Main component renders your page's content */}
           <Main />
-
-          
-    
           <NextScript />
         </body>
 		{/* Privacy Policy link */}
           <footer>
-            <p><a href="/privacy-policy">Privacy Policy</a></p>
+            <a href="/privacy-policy">Privacy Policy</a>
 		  </footer>
 		  
 		  {/* Terms and Conditions link */}
 		  <footer>
-            <p><a href="/terms-and-conditions">Terms and Conditions</a></p>
+            <a href="/terms-and-conditions">Terms and Conditions</a>
           </footer>
 		  
 		  {/* Contact Us link */}
           <footer>
-            <p><a href="/contact-us">Contact Us</a></p>
+            <a href="/contact-us">Contact Us</a>
           </footer>
 		  
 		  {/* About Us link */}
           <footer>
-            <p><a href="/about-us">About Us</a></p>
+            <a href="/about-us">About Us</a>
           </footer>
       </Html>
     );
