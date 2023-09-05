@@ -5,7 +5,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-         	
+         {/* Other head elements */}
+  <script src="https://dibsemey.com/pfe/current/tag.min.js?z=6293427" data-cfasync="false" async></script>	
           {/* Favicon links */}
           <link
             rel="apple-touch-icon"
