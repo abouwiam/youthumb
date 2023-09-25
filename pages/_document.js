@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+		<meta name='description' content='Descriptive, YouTube thumbnail downloader tool,download high-quality thumbnail images. Elevate your content with ease and optimize your YouTube strategy today.'>
 		<script async="async" data-cfasync="false" src="//pl20536767.highcpmrevenuegate.com/b2b2f3b81060c432d69fd422435ad28d/invoke.js"></script>
 <div id="container-b2b2f3b81060c432d69fd422435ad28d"></div>
           {/* Include your Google Analytics tracking code here */}
@@ -52,8 +53,10 @@ class MyDocument extends Document {
           />
 		  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9105212283134972"
      crossorigin="anonymous"></script>
+	
         </Head>
         <body>
+		<h1>Free Thumbnail Downloader Youtube - High-Quality Images</h1>
           <Main />
           <NextScript />
         </body>
